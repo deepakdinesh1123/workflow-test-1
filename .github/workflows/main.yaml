@@ -11,7 +11,7 @@ permissions: write-all
 
 jobs:
   sync:
-    uses: deepakdinesh1123/workflow-test/.github/workflows/release-package.yml@main
+    uses: deepakdinesh1123/workflow-test/.github/workflows/test.yml@main
     with:
       manifest-file-path: "frame/manifest.json"
       aws-pkg-name: "frame"
